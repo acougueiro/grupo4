@@ -1,122 +1,183 @@
-*
-{
-	margin: 0em;
-	padding: 0em;
+* {
+    margin: 0em;
+    padding: 0em;
 }
 
-h1,h2
-{
+h1,
+h2 {}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+    color: #666;
+    background-color: #fff;
 }
 
-body
-{
-	font-family: Arial, sans-serif;
-	font-size: 10pt;
-	color: #666;
-	background-color: #fff;
+a {
+    color: #0077dd;
+    text-decoration: underline;
 }
 
-a
-{
-	color: #0077dd;
-	text-decoration: underline;
+a:hover {
+    text-decoration: none;
 }
 
-a:hover
-{
-	text-decoration: none;
+#outer {
+    padding: 0em;
+    margin: 0em;
+    width: 100%;
 }
 
-#outer
-{
-	padding: 0em;
-	margin: 0em;
-	width: 100%;
+#header {
+    position: relative;
+    background: #004778 url('imagens/bg.gif') bottom left repeat-x;
+    height: 10em;
+    padding-left: 2em;
 }
 
-
-#header
-{
-	position: relative;
-	background: #004778 url('imagens/bg.gif') bottom left repeat-x;
-	height: 10em;
-	padding-left: 2em;
+#header h1 {
+    position: absolute;
+    top: 1.8em;
+    font-size: 2.2em;
+    letter-spacing: -0.05em;
 }
 
-#header h1
-{
-	position: absolute;
-	top: 1.8em;
-	font-size: 2.2em;
-	letter-spacing: -0.05em;
+#header h1 a {
+    color: #fff;
+    text-decoration: none;
 }
 
-#header h1 a
-{
-	color: #fff;
-	text-decoration: none;
+#header h2 {
+    position: absolute;
+    font-size: 0.8em;
+    top: 8em;
+    color: #E0E8EF;
 }
 
-#header h2
-{
-	position: absolute;
-	font-size: 0.8em;
-	top: 8em;
-	color: #E0E8EF;
+#menu {
+    position: absolute;
+    top: 5em;
+    right: 3em;
 }
 
-#menu
-{
-	position: absolute;
-	top: 5em;
-	right: 3em;
+#menu ul {
+    list-style: none;
 }
 
-#menu ul
-{
-	list-style: none;
+#menu li {
+    display: inline;
+    padding-left: 1.1em;
+    margin-left: 1em;
+    border-left: dotted 1px #E0E8EF;
 }
 
-#menu li
-{
-	display: inline;
-	padding-left: 1.1em;
-	margin-left: 1em;
-	border-left: dotted 1px #E0E8EF;
+#menu li a {
+    color: #fff;
+    padding: 0.1em;
+    text-decoration: none;
 }
 
-
-#menu li a
-{
-	color: #fff;
-	padding: 0.1em;
-	text-decoration: none;
+#menu li a:hover {
+    text-decoration: underline;
 }
 
-#menu li a:hover
-{
-	text-decoration: underline;
+.acesso {
+    font-weight: bold;
+    font-size: 12pt;
+    text-decoration: underline;
 }
 
-.acesso
-{
-	font-weight: bold;
-	font-size: 12pt;
-	text-decoration: underline;
+#content {
+    line-height: 1.5em;
 }
 
-#content
-{
-	line-height: 1.5em;
+#footer {
+    position: relative;
+    z-index: 1;
+    padding: 1em 0em 2em 0em;
+    margin: 1em 2em 0em 2em;
+    text-align: center;
 }
 
-
-#footer
-{
-	position: relative;
-	z-index: 1;
-	padding: 1em 0em 2em 0em;
-	margin: 1em 2em 0em 2em;
-	text-align: center;
+.titulo {
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    color: #004778;
+    text-justify: center;
 }
 
+.sub-titulo {
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+    text-justify: center;
+    position: relative;
+    top: 50px;
+    font-weight: bold;
+}
+
+.noticias-esquerda {
+    width: 30%;
+    padding: 5%;
+    margin-top: 2%;
+    align-items: center;
+    text-align: left;
+    text-justify: center;
+    position: relative;
+    right: 350px;
+}
+
+.noticias-direita {
+    border: 1px black solid;
+    width: 30%;
+    padding: 2%;
+    margin-top: 2%;
+    align-items: center;
+    text-align: left;
+    text-justify: right;
+    position: absolute;
+    right: 8%;
+    top: 50%;
+}
+
+.noticia2 {
+    border: 1px black solid;
+    width: 30%;
+    padding: 2%;
+    margin-top: 2%;
+    align-items: left;
+    text-align: left;
+    text-justify: center;
+    position: relative;
+    right: 25%;
+    top: 100px;
+    font-size: 16px;
+}
+
+.noticia2-direita {
+    width: 30%;
+    padding: 2%;
+    margin-top: 2%;
+    align-items: left;
+    text-align: left;
+    text-justify: right;
+    position: relative;
+    right: 255px;
+    top: -250px;
+    float: right;
+}
+
+.sub-titulo {
+    clear: both;
+    position: relative;
+    top: -170px;
+}
+
+video {
+    width: 85%;
+    height: 70%;
+    position: relative;
+    bottom: 150px;
+}
