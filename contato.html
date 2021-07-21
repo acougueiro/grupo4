@@ -9,7 +9,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png">
   </head>
-
+  
   <body>
     <div id="header">
       <h1><a href="#">GRUPO-04</a></h1>
@@ -32,10 +32,34 @@
 
 
 
+        <div id="contato_campos">
+            <br> <br>
+             <h1> ENTRE EM CONTATO CONOSCO </h1>
+            <br> <br>
 
-      <br> <br>
-      <center> Colocar o conteudo aqui para baixo
+            <div>
+                <form id="contato" name="contato" method="post" action="contato_recebe.html" onsubmit="return validacao();" novalidate>
+                    <input type="text" name="nome" placeholder="nome" >
+                    <br>
+                 
+                    <input type="email" name="email" placeholder="email" >
+                    <br>
 
+                    <textarea id="menssagem"  name="menssagem" placeholder="digite sua  menssagem" ></textarea>
+                    <br> <br>
+
+                    <input type="submit"></form>
+                    <br> <br>
+                </form>
+       
+           </div>
+       
+    
+    
+
+ 
+ 
+ 
 
 
 
@@ -59,11 +83,30 @@
       <p>2021 - Projeto Final Itaú Formação Tech Edição <a href="https://epic-mahavira-e18fd0.netlify.app">GRUPO-04</a></p>
     </div>
 
+        <script text="text/javascript">
+            function validacao() {
+                var formulario = document.contato;
+                var nome = formulario.nome;
+                var email = formulario.email;
+        
+                if (nome.value == "") {
+                    alert("Insira um nome válido.");
+                    return false;
+                }
+        
+                if(email.value.indexOf("@") == -1 || email.value.indexOf(".") == -1) {
+                    alert("Insira um email válido");
+                    return false;
+                }
+                
 
-
-
-
-
-
+                if (menssagem.value == "") {
+                    alert("Insira sua menssagem !");
+                    return false;
+                }
+            
+                return true;
+        }
+        </script>
   </body>
 </html>

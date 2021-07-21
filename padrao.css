@@ -4,81 +4,69 @@
 	padding: 0em;
 }
 
-h1,h2
-{
+h1,h2 {
 }
 
-body
-{
+body {
 	font-family: Arial, sans-serif;
 	font-size: 10pt;
 	color: #666;
 	background-color: #fff;
 }
 
-a
-{
+a{
 	color: #0077dd;
 	text-decoration: underline;
 }
 
-a:hover
-{
+a:hover {
 	text-decoration: none;
 }
 
-#outer
-{
+#outer {
 	padding: 0em;
 	margin: 0em;
 	width: 100%;
 }
 
 
-#header
-{
+#header {
 	position: relative;
 	background: #004778 url('imagens/bg.gif') bottom left repeat-x;
 	height: 10em;
 	padding-left: 2em;
 }
 
-#header h1
-{
+#header h1 {
 	position: absolute;
 	top: 1.8em;
 	font-size: 2.2em;
 	letter-spacing: -0.05em;
 }
 
-#header h1 a
-{
+#header h1 a {
 	color: #fff;
 	text-decoration: none;
 }
 
-#header h2
-{
+#header h2 {
 	position: absolute;
 	font-size: 0.8em;
 	top: 8em;
 	color: #E0E8EF;
 }
 
-#menu
-{
+#menu {
 	position: absolute;
 	top: 5em;
 	right: 3em;
 }
 
-#menu ul
-{
+#menu ul {
 	list-style: none;
 }
 
-#menu li
-{
+#menu li {
 	display: inline;
 	padding-left: 1.1em;
 	margin-left: 1em;
@@ -86,33 +74,33 @@ a:hover
 }
 
 
-#menu li a
-{
+#menu li a {
 	color: #fff;
 	padding: 0.1em;
 	text-decoration: none;
 }
 
-#menu li a:hover
-{
+#menu li a:hover {
 	text-decoration: underline;
 }
 
-.acesso
-{
+.acesso {
 	font-weight: bold;
 	font-size: 12pt;
 	text-decoration: underline;
 }
 
-#content
-{
+#content {
 	line-height: 1.5em;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;  
+	text-align: center;
 }
 
-
-#footer
-{
+#footer {
 	position: relative;
 	z-index: 1;
 	padding: 1em 0em 2em 0em;
@@ -120,3 +108,58 @@ a:hover
 	text-align: center;
 }
 
+form {
+   	margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+textarea {
+   	vertical-align: top;
+    height: 10em;
+    resize: none;
+}
+
+#contato_campos {
+	text-align: center;
+	width: 100%;
+}
+
+#recebe {
+	text-align: center;
+	font-weight: bold;
+	font-size: 12pt;
+	color:chocolate;
+}
+	
+div.sobre {
+	margin-top: 1%;
+	width: 60%;
+	border: 2px solid rgba(164, 177, 252, 0.822);
+    border-radius: 1em;
+	}
+
+div.foto {
+	margin-top: 2%;
+	width: 50%;
+	display: inline-block;
+	text-align: center;
+	float:left;
+}
+
+div.descricao {
+	width: 50%;
+	text-align: left;
+	vertical-align: text-top;
+	float:right;
+}
