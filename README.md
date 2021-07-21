@@ -1,7 +1,7 @@
 # grupo4
 
 - Desenvolvido por h.matias@yahoo.com.br
-Base total do site, Pag sobre, Pag Contato, Pag Sobre
+Base total do site, Pag sobre, Pag Contato
 Estrutura html, css, javascript 
 
 - Desenvolido por guilhermemano321@gmail.com
