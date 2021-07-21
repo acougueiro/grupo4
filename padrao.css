@@ -115,7 +115,7 @@ a:hover {
     text-justify: center;
     position: relative;
     top: 50px;
-    font-weight: bold;
+    margin-top: 10%;
 }
 
 .noticias-esquerda {
@@ -172,12 +172,61 @@ a:hover {
 .sub-titulo {
     clear: both;
     position: relative;
-    top: -170px;
+    top: -5px;
 }
 
 video {
     width: 85%;
     height: 70%;
     position: relative;
-    bottom: 150px;
+    bottom: -5px;
+}
+
+.links-saibamais {
+    width: 600px;
+    border: 1px solid black;
+    color: #004778;
+    font-size: 20px;
+    padding: 2%;
+}
+
+.link {
+    text-decoration: none;
+    color: #00ddff;
+}
+
+.titulo-saiba {
+    font-size: 20px;
+}
+
+a:hover {
+    background-color: #004778;
+}
+
+.noticias-central {
+    border: 1px solid black;
+    width: 40%;
+    margin-top: 3%;
+    align-items: center;
+    text-align: left;
+    text-justify: right;
+    position: relative;
+    right: 60px;
+    padding: 2%;
+}
+
+.sub-titulo2 {
+    width: 90%;
+    margin-top: 15%;
+    align-items: center;
+    text-align: center;
+    text-justify: right;
+    position: relative;
+    left: 50px;
+    font-size: 20px;
+    color: gray;
+}
+
+.texto {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
